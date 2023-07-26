@@ -5,18 +5,18 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 
-global.SESSION_ID =  process.env.SESSION_ID || "Darknero=NrFGSajS#i-zLanEKF-5jSzKcvrS-Ua0c_x4t1RbAy1ZUmDbLku4"
+global.SESSION_ID =  process.env.SESSION_ID || "Darknero=47VWnaaT#KBCf0iBUhNrXs7Vj2XVfqxJ4JHjRitwmJUUWljw1qsw"
 
 module.exports = { 
 
  READ_MESSAGE : process.env. READ_MESSAGE  === undefined ?'true': process.env. READ_MESSAGE,
-AOTO_VOICS: process.env.AOTO_VOICS  === undefined ? 'false' : process.env.AOTO_VOICS, 
+AOTO_VOICS: process.env.AOTO_VOICS  === undefined ? 'true' : process.env.AOTO_VOICS, 
 YOU_LINK :  process.env.YOU_LINK  === undefined ? 'https://github.com/Kaveeshasithum' : process.env.YOU_LINK,
-OWENR_NO: process.env.OWENR_NO === undefined ? '94774071805' : process.env.OWENR_NO,
-ANTI_BAD: process.env.ANTI_BAD === undefined ? 'false' : process.env.ANTI_BAD,
+OWENR_NO: process.env.OWENR_NO === undefined ? '94765418376' : process.env.OWENR_NO,
+ANTI_BAD: process.env.ANTI_BAD === undefined ? 'true' : process.env.ANTI_BAD,
 MAX_SIZE: 100,
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GROUP,
-ANTI_LINK: process.env.ANTI_LINK === undefined ? 'false' : process.env.ANTI_LINK,
+ANTI_LINK: process.env.ANTI_LINK === undefined ? 'true' : process.env.ANTI_LINK,
 ALIVE: process.env.ALIVE === undefined ? ` BRO HELO
  
      
